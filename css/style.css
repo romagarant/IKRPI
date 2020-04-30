@@ -1,0 +1,25 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 42px;
+	font-weight: 300;
+	color: #192b59;
+}
+
+.nav {
+	font-size: 20px;
+	color: #212121;
+	font-weight: 600;
+}
+
+.grid h2 {
+	font-size: 42px;
+	font-weight: 300;
+	color: #192b59;
+}
