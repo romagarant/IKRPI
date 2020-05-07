@@ -18,8 +18,34 @@ h1 {
 
 .nav {
 	font-size: 16px;
-	color: #212121;
 	font-weight: 400;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.nav>li {
+	padding: 0 20px;
+}
+
+.nav>li>a {
+	color: #212121;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    height: 69%;
+    background-image: url(../img/logo_new.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 h2 {
@@ -53,6 +79,19 @@ h2 {
     text-align: center;
     font-size: 200px;
 
+}
+
+.head {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	background: #fff;
+}
+
+.page-header>h1 {
+	padding-top: 71px;
 }
 
 .line {
