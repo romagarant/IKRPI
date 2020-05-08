@@ -64,7 +64,7 @@ h1 {
 
 .logo {
     display: block;
-    width: 100%;
+    width: 200px;
     height: 69%;
     background-image: url(../img/logo_new.png);
     background-repeat: no-repeat;
@@ -190,12 +190,8 @@ h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 15px;
     padding-right: 15px;
 }
