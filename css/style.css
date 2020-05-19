@@ -406,7 +406,7 @@ form .left, form .right {
    width: 458px;
 }
 form .right {
-   padding-left: 20px;
+   /*padding-left: 20px;*/
 }
 label {
    display: block;
@@ -431,4 +431,5 @@ input[type="submit"] {
    background: #595B5F;
    color: #fff;
    text-transform: uppercase;
+   margin-right: 20px;
 }
