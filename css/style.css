@@ -1,9 +1,12 @@
 body {
+	/*position: relative;
+	padding-bottom: 24px;*/
 	font-family: 'Open Sans', sans-serif;
 	color: #7581a1;
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 1.55;
+	height: 100%:;
 }
 
 a {
@@ -72,6 +75,11 @@ h1 {
     opacity: 0.2;
 }
 
+.footer-line {
+	border-bottom: 1px solid #0153cb;
+	width: 100%;
+	opacity: 0.2;
+}
 
 
 .carousel-inner {
@@ -122,6 +130,8 @@ h1 {
 .wrap {
 	max-width: 1110px;
     margin: 0 auto;
+    /*position: relative;*/
+	/*min-height: 100%;*/
 }
 
 h2 {
@@ -333,12 +343,21 @@ h2 {
 
 .page-vacancy {
 	padding-top: 130px;
-	padding-bottom: 450px;
+	padding-bottom: 24px;
+
 }
 
 .footer {
+	
 	padding-left: 15px;
 	padding-right: 15px;
+
+}
+
+.footer-page {
+	position: absolute;
+	bottom: 0;
+	height: 24px;
 }
 
 .carousel-inner .carousel-item.active,.carousel-inner .carousel-item-next,.carousel-inner .carousel-item-prev {
