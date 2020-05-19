@@ -326,7 +326,7 @@ h2 {
     padding-right: 15px;
 }
 
-.page-projects {
+.page-projects, .page-form {
 	padding-left: 15px;
     padding-right: 15px;
 }
@@ -344,6 +344,8 @@ h2 {
 .page-vacancy {
 	padding-top: 130px;
 	padding-bottom: 24px;
+	padding-left: 15px;
+    padding-right: 15px;
 
 }
 
