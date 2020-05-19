@@ -60,9 +60,19 @@ h1 {
 .nav>li {
 }
 
-a {
+.nav>li>a {
 	color: #212121;
 	padding: 10px 20px;
+}
+
+#back-btn {
+	color: #fff;
+}
+
+#back-btn:hover {
+	color: #0153cb;
+	transition: color 0.3s;
+	text-decoration: none;
 }
 
 .nav>li>a:hover {
@@ -87,7 +97,7 @@ a {
 
 
 .carousel-inner {
-	width: 95%;
+	width: 90%;
 	margin: 0 auto;
 }
 
