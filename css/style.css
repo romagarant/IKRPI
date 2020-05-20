@@ -17,7 +17,7 @@ h1 {
 	font-size: 42px;
 	font-weight: 300;
 	color: #192b59;
-	width: 815px;
+	width: 100%;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 40px;
@@ -48,8 +48,8 @@ h1 {
 }
 
 .btn-menu svg {
-	width: 60px;
-	height: 60px;
+	width: 35px;
+	height: 35px;
 }
 
 .back-btn {
@@ -202,8 +202,8 @@ h2 {
 .grid {
 	display: -ms-grid;
 	display: grid;
-	                                        -ms-grid-rows: auto 30px auto 30px auto 30px auto;
-	                                            grid-template-areas: "a b c" "a b c" "d e f" "d e f";
+	                                                                            -ms-grid-rows: auto 30px auto 30px auto 30px auto;
+	                                                                                grid-template-areas: "a b c" "a b c" "d e f" "d e f";
 	-ms-grid-columns: 1fr 30px 1fr 30px 1fr;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 30px;
@@ -477,7 +477,7 @@ input[type="submit"] {
 }
 
 /*MEDIA*/
-@media (max-width: 980px) {
+@media screen and (max-width: 980px) {
 	.nav {
 		display: none;
 	}
